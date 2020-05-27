@@ -21,7 +21,7 @@ Additional standards that are advisable to follow:
 	+ e.g. `const data$: Observable<data>`
 
 ## Creating the initial timestamp
-In order to better gauge the amount of time the solution takes, please create an initial commit to your fork when starting the solution.
+In order to better gauge the amount of time the solution takes, please create an initial commit -- HERE -- to your fork when starting the solution.
 This helps us better understand your strengths and weaknesses. If you make more frequent commits, then it also gives an idea of how much time is spent on each piece of the solution
 
 ## Submitting your solution
