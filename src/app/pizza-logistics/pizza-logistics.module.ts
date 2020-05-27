@@ -8,6 +8,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { PizzaLogisticsRoutingModule } from './pizza-logistics-routing.module';
 import { PizzaLogisticsComponent } from './pizza-logistics/pizza-logistics.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { PizzaLogisticsComponent } from './pizza-logistics/pizza-logistics.compo
     MatButtonModule,
     MatInputModule,
     MatButtonModule,
+    MatGridListModule,
+    MatListModule
   ],
 })
 export class PizzaLogisticsModule { }
