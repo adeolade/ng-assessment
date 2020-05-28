@@ -10,7 +10,9 @@ if (environment.production) {
   enableProdMode();
 }
 
-const bootstrap = () => platformBrowserDynamic().bootstrapModule(AppModule);
+const bootstrap = () => platformBrowserDynamic().bootstrapModule(AppModule, {
+    defaultEncapsulation: ViewEncapsulation.Emulated
+});
 
 if (environment.hmr) {
   if (module['hot']) {

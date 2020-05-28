@@ -81,8 +81,7 @@ export class PizzaLogisticsComponent implements OnInit {
       update.state = PizzaState.ready;
   }
 
-  public placeOrderClick(): void {
-    debugger
+  public placeOrderClick(): void {    
     const id = this.ordersList.length+1;
       const order: PizzaOrder = {
         id: id.toString(),
