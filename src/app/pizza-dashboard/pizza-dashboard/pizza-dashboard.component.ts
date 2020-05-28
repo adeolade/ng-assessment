@@ -10,6 +10,10 @@ import { NavItem } from '../../shared/models/nav-item.model';
 })
 export class PizzaDashboardComponent implements OnInit {
   private subscriptions = new Subscription();
+  public totalOrderCount = 0;
+  public enRouteCount = 0;
+  public inKitchenCount = 0;
+  public deliveredCount = 0;
 
   public navItems: NavItem[] = [
     {

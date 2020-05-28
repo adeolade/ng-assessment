@@ -19,6 +19,9 @@
       mat-grid-tile button {
         width: 80%;
       }
+      mat-form-field input, .mat-option-text {
+        text-transform: capitalize;
+      }
       mat-grid-tile-header {
         background: none;
         color: black;
@@ -28,11 +31,11 @@
       .full-width {
         width:90%;
       }
-      .pizza-button {
-        background-color: $accent-color !important;
+      .pizza-button:enabled {
+        background-color: $accent-color;
       }
-      .pizza-text {
-        color: $accent-color !important;
+      input.order-number:disabled {
+        color: $accent-color;
       }
     }
 

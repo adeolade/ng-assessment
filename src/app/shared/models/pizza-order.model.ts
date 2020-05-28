@@ -7,5 +7,5 @@ export interface PizzaOrder {
   toppings: PizzaTopping[];
   size: number;
   state: PizzaState;
-  driverId: string;
+  driverId?: string;
 }
